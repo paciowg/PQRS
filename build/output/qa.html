@@ -1,0 +1,322 @@
+﻿<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- broken links = 36, errors = 6, warn = 5, info = 2 -->
+<head>
+  <title>iQIESImplementationGuide : Validation Results</title>
+  <link href="fhir.css" rel="stylesheet"/>
+  <style>
+    span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
+  </style>
+  <script>
+    function flip(id) {
+      var span = document.getElementById('s'+id);
+      var div = document.getElementById(id);
+      if (document.getElementById('s'+id).innerHTML == 'Show Reasoning') {
+        div.style.display = 'block';
+        span.innerHTML = 'Hide Reasoning';
+      } else {
+        div.style.display = 'none';
+        span.innerHTML = 'Show Reasoning';
+      }
+    }
+  </script>
+</head>
+<body style="margin: 20px; background-color: #ffffff">
+ <h1>Validation Results for iQIESImplementationGuide</h1>
+ <p>Generated Fri Nov 06 13:53:15 EST 2020, FHIR version 4.0.1 for cms-iqies#0.1.0 (canonical = <a href="https://paciowg.github.io/iqies">https://paciowg.github.io/iqies</a> (<a href="https://paciowg.github.io/iqies/history.html">history</a>)). See <a href="c:\users\smahoney\documents\github\iqies\build\output\qa.min.html">Errors Only</a></p>
+<table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.35, which is out of date. The current version is v?pub-ver-1? <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = cms-iqies, Canonical = https://paciowg.github.io/iqies</td></tr>
+ <tr><td>Realm Check:</td><td> <span style="color: maroon; font-weight: bold"></span> : <ul><li>n/a</li></ul></td></tr>
+ <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">No entry in the package-list.json file for this version</span></td></tr>
+ <tr><td>Supressed Messages:</td><td>No Suppressed Issues
+</td></tr>
+ <tr><td>Dependency Checks:</td><td><div><table border="0" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The NPM Package Id">Package</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of the package">Version</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="The version of FHIR that the package is based on">FHIR Release</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Canonical URL">Canonical</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Web Reference Base">Web Base</span></th><th style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span title="Comments about this entry">Comment</span></th></tr><tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\smahoney\Documents\GitHub\iQies\build\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAALUlEQVR4Xu3IoREAIAwEwfT6/ddA0GBAxO3NrLlKUj9263wAAAAvrgEAADClAVWFQIBRHMicAAAAAElFTkSuQmCC)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: white; background-color: inherit" title="NPM Package" class="hierarchy"/> cms-iqies</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0.1.0</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">https://paciowg.github.io/iqies</td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+<tr style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(C:\Users\smahoney\Documents\GitHub\iQies\build\outputdata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAACCAYAAACg/LjIAAAAJUlEQVR4Xu3IIQEAAAgDsHd9/w4EQIOamFnaBgAA4MMKAACAKwNp30CqZFfFmwAAAABJRU5ErkJggg==)" class="hierarchy"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAWCAYAAAABxvaqAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzIs1vtcMQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAE0lEQVQI12P4//8/AxMDAwNdCABMPwMo2ctnoQAAAABJRU5ErkJggg==" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAWCAYAAADJqhx8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYeFzME+lXFigAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAANklEQVQ4y+3OsRUAIAjEUOL+O8cJABttJM11/x1qZAGqRBEVcNIqdWj1efDqQbb3HwwwwEfABmQUHSPM9dtDAAAAAElFTkSuQmCC" alt="." style="background-color: inherit" class="hierarchy"/><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3QYZCik0qECmbAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAABtUlEQVQoz2P8//8/Ayb4///v8xfM4iIMzKxoMkwMOMC3DVv/vXmEKY5Dw///Pw8c+Xn2CLEa/r55+/P07t/nrxKl4f/PX6+8g1mlP/44c4eAhn8fP33bsOV1dBoT51V2+z/MohIfeyYy/P2LXcPfFy8/NLb9efTs//utgjUfft35xRUY8Hnm/N/Xb2LT8P//h5ZOnvjoj+11giXcTH//MTLp/v/x9c/z279uXsOi4e/LRwzsbz6vmMyTLM6m9fnXE3Y2l+yv+yez2nL9eX0Wi4afF5eyW4r/+3qYP1Xjz/N3P17ZsRsKMrJd4rL9wcTxDIsGZqEvLEKv2VT/Mgl+/XGbXSB72s/zxXyBYmwqLCxSLFg0sKkHsAg+YJX7xfBTmt204s/NXE4dQTZtT2beH6yqFv9ebkDXwMhnxixrySb68f9fcWYRTSbGA6ya2QwMsixCvxk/djByiWIJVkbBBGaNOoafO5nYWVlkPRjYtP5/388s+JdJkI+R1xquDMl9zOqMQioM7BIMjJ8Z2IUYWOQZeT0Y/u5mEF+G7AdGLMn7712GnycY/v1g+HOZga+WgUkYWRIAe6ip9OnE1GoAAAAASUVORK5CYII=" alt="." style="background-color: #F7F7F7; background-color: inherit" title="NPM Package" class="hierarchy"/> hl7.fhir.us.core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">3.1.0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">4.0.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://hl7.org/fhir/us/core/STU3.1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td></tr>
+</table><para>Templates: fhir.base.template#current</para></div></td></tr>
+ <tr><td>HL7 Publication Rules:</td><td>Code = n/a. n/a - not an HL7.org or FHIR.org implementation guide
+</td></tr>
+ <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://paciowg.github.io/iqies (Problem #1 with package-list.json at https://paciowg.github.io/iqies: PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target)</td></tr>
+ <tr><td>Summary:</td><td> broken links = 36, errors = 6, warn = 5, info = 2</td></tr>
+</table>
+ <table class="grid">
+   <tr>
+     <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>36</b></td><td><b>0</b></td><td><b>0</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_iQies_build_input_ImplementationGuide-cms-iqies"><b>C:\Users\smahoney\Documents\GitHub\iQies\build\input\ImplementationGuide-cms-iqies</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-err"><b>C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\structuredefinition-iQies-err</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-pt"><b>C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\structuredefinition-iQies-pt</b></a></td><td><b>6</b></td><td><b>1</b></td><td><b>3</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-pyr"><b>C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\structuredefinition-iQies-pyr</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-qr"><b>C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\structuredefinition-iQies-qr</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="internal"> </a>
+<h2><a href="">n/a</a></h2>
+ <table class="grid">
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err-definitions.html#9d737646-fc20-4a96-b262-45bad7cdcc9c">StructureDefinition-iQies-err-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err-examples.html#31afd2d5-92e8-4b82-8363-1eebad810b0d">StructureDefinition-iQies-err-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err-mappings.html#16ff7942-1366-4036-8f90-7557bbe9441b">StructureDefinition-iQies-err-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err.html#604f227d-bd9c-4447-8fd5-b9484875fba8">StructureDefinition-iQies-err.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err.profile.history.html#63ccb083-09f8-4fcc-ab21-3703140027af">StructureDefinition-iQies-err.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err.profile.json.html#a99831fb-2a5c-4048-b058-b10b05d7b19f">StructureDefinition-iQies-err.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err.profile.ttl.html#f9021279-463d-4ddd-84b2-c7fdefb0f1ec">StructureDefinition-iQies-err.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-err.profile.xml.html#1a57c397-0c58-4beb-afdd-38f5087b38c4">StructureDefinition-iQies-err.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt-definitions.html#c6ed3e93-0943-49cc-a88d-023d574266f3">StructureDefinition-iQies-pt-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt-examples.html#2015eea7-2629-401f-a57e-60e2182bd325">StructureDefinition-iQies-pt-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt-mappings.html#ced03cdf-3210-445e-9afd-b65373731452">StructureDefinition-iQies-pt-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt.html#260a71cb-4f23-47db-af9c-33693b3fe76d">StructureDefinition-iQies-pt.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt.profile.history.html#4e420a0b-4564-4a2a-82b3-41e9b378ba6d">StructureDefinition-iQies-pt.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt.profile.json.html#5a2adc22-f90f-42cd-9771-34aa0af77ef5">StructureDefinition-iQies-pt.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt.profile.ttl.html#62faed42-6e49-4444-900d-3e457123c7c1">StructureDefinition-iQies-pt.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pt.profile.xml.html#ba1bacdf-3e55-451e-be7a-5d7c42432a2d">StructureDefinition-iQies-pt.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr-definitions.html#e9599dd1-f79b-4061-94d4-2046ae88e181">StructureDefinition-iQies-pyr-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr-examples.html#c975249c-58a7-4aed-bc2d-73f3dda10e9e">StructureDefinition-iQies-pyr-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr-mappings.html#502d5a4a-a0c3-44a2-82a3-5901f87805c6">StructureDefinition-iQies-pyr-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr.html#4f310385-781a-4812-904b-5512eb48e50d">StructureDefinition-iQies-pyr.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr.profile.history.html#2b999963-48b1-41de-ba38-f2c6f13ee8ad">StructureDefinition-iQies-pyr.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr.profile.json.html#5e90dbce-5398-4300-95b4-c0a85e43b102">StructureDefinition-iQies-pyr.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr.profile.ttl.html#630f2500-c0dd-4d06-a35c-7edbb997873e">StructureDefinition-iQies-pyr.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-pyr.profile.xml.html#bfaf3404-bb34-402a-ae56-99a51b5dbdc4">StructureDefinition-iQies-pyr.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr-definitions.html#6016ecfe-c9e9-4182-8572-220b886625ea">StructureDefinition-iQies-qr-definitions.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr-examples.html#c3928171-a39c-4835-8d0d-048c933f168d">StructureDefinition-iQies-qr-examples.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr-mappings.html#5e4c1afd-3ca2-4a9a-b2de-4a60faa6c87b">StructureDefinition-iQies-qr-mappings.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr.html#e2bb6ada-2781-4673-8f36-8e2723bd252d">StructureDefinition-iQies-qr.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr.profile.history.html#fa4b5cd4-0bc1-45bf-821e-b58c0399be3c">StructureDefinition-iQies-qr.profile.history.html#/html/body/div/div/nav/div/div/ul/li/a at Line 79, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr.profile.json.html#1a908080-ee4e-4a3b-b55a-44c11503afb3">StructureDefinition-iQies-qr.profile.json.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr.profile.ttl.html#7ad65a61-1909-4cf8-832a-3b780ca3efc0">StructureDefinition-iQies-qr.profile.ttl.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="StructureDefinition-iQies-qr.profile.xml.html#8104ea3b-e401-4554-a85d-8b67ba78ea31">StructureDefinition-iQies-qr.profile.xml.html#/html/body/div/div/nav/div/div/ul/li/a at Line 83, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="artifacts.html#c27fdad4-6986-4875-a560-6352040d739c">artifacts.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="searchform.html#d38ad4e1-8d26-4e72-959b-0eba5cb97719">searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 63, column 21</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;Specification&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="searchform.html#9385ade7-ebae-4078-93bc-0e5e8e488257">searchform.html#/html/body/div/div/a/img/div/div/nav/div/div/ul/li/a at Line 64, column 21</a></b></td><td><b>error</b></td><td><b>The link 'history.html' for &quot;History&quot; cannot be resolved</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b><a href="toc.html#9046c75a-807a-410b-8042-b8090332a6e5">toc.html#/html/body/div/div/nav/div/div/ul/li/a at Line 75, column 6</a></b></td><td><b>error</b></td><td><b>The link 'index.html' for &quot;IG Home&quot; cannot be resolved</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_iQies_build_input_ImplementationGuide-cms-iqies"> </a>
+<h2><a href="ImplementationGuide-cms-iqies.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\ImplementationGuide-cms-iqies.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>ImplementationGuide/cms-iqies: ImplementationGuide</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>ImplementationGuide/cms-iqies: ImplementationGuide</b></td><td><b>warning</b></td><td title="ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]"><b>ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-err"> </a>
+<h2><a href="StructureDefinition-iQies-err.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-err.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/iQies-err: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://paciowg.github.io/iqies/StructureDefinition/iQies-err')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-pt"> </a>
+<h2><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.snapshot.element[25].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet2"><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v2-0203')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.snapshot.element[25].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet"><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v2-0203 - cannot use a value set URI as a system</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.snapshot.element[25].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.hl7.org/ValueSet/v2-0203' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.snapshot.element[26].pattern.ofType(uri)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/sid/us-mbi' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet2"><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v2-0203')</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>error</b></td><td title="Terminology_TX_System_ValueSet"><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v2-0203 - cannot use a value set URI as a system</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.differential.element[3].pattern.ofType(CodeableConcept).coding[0]</b></td><td><b>information</b></td><td title="Terminology_TX_System_NotKnown"><b>Code System URI 'http://terminology.hl7.org/ValueSet/v2-0203' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>StructureDefinition/iQies-pt: StructureDefinition.differential.element[4].pattern.ofType(uri)</b></td><td><b>error</b></td><td title="Type_Specific_Checks_DT_URL_Resolve"><b>URL value 'http://hl7.org/fhir/sid/us-mbi' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://paciowg.github.io/iqies/StructureDefinition/iQies-pt')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-pyr"> </a>
+<h2><a href="StructureDefinition-iQies-pyr.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pyr.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/iQies-pyr: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://paciowg.github.io/iqies/StructureDefinition/iQies-pyr')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="C__Users_smahoney_Documents_GitHub_iQies_build_input_profiles_structuredefinition-iQies-qr"> </a>
+<h2><a href="StructureDefinition-iQies-qr.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-qr.json</a></h2>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #d6feff">
+     <td><b>StructureDefinition/iQies-qr: StructureDefinition</b></td><td><b>Process Info</b></td><td title="VALIDATION_VAL_PROFILE_SIGNPOST"><b>Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>StructureDefinition.where(url = 'https://paciowg.github.io/iqies/StructureDefinition/iQies-qr')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+   </tr>
+</table>
+<a name="suppressed"> </a>
+<p><b>Suppressed Messages (Warnings, hints, broken links)</b></p>
+<p>No suppressed messsages</p><a name="sorted"> </a>
+<p><b>Errors sorted by type</b></p>
+<hr/>
+<a name="Terminology_TX_System_NotKnown"> </a>
+<h2>Terminology_TX_System_NotKnown</h2>
+ <table class="grid">
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/ValueSet/v2-0203' is unknown so the code cannot be validated</b></td>
+   </tr>
+   <tr style="background-color: #fffff2">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>Code System URI 'http://terminology.hl7.org/ValueSet/v2-0203' is unknown so the code cannot be validated</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_ValueSet"> </a>
+<h2>Terminology_TX_System_ValueSet</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v2-0203 - cannot use a value set URI as a system</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>Invalid System URI: http://terminology.hl7.org/ValueSet/v2-0203 - cannot use a value set URI as a system</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_System_ValueSet2"> </a>
+<h2>Terminology_TX_System_ValueSet2</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v2-0203')</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>The Coding references a value set, not a code system ('http://terminology.hl7.org/ValueSet/v2-0203')</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="Type_Specific_Checks_DT_URL_Resolve"> </a>
+<h2>Type_Specific_Checks_DT_URL_Resolve</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>URL value 'http://hl7.org/fhir/sid/us-mbi' does not resolve</b></td>
+   </tr>
+   <tr style="background-color: #ffeeee">
+     <td><a href="StructureDefinition-iQies-pt.html">C:\Users\smahoney\Documents\GitHub\iQies\build\input\profiles\StructureDefinition-iQies-pt.json</a></td><td><b>URL value 'http://hl7.org/fhir/sid/us-mbi' does not resolve</b></td>
+   </tr>
+</table>
+</body>
+</html>
